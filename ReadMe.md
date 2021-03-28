@@ -30,20 +30,18 @@
 | HDMI       | 正常                                       |
 | 触摸板     | 部分正常（三金刚键异常）                   |
 | 小红点     | 失效                                       |
-| 键盘       | 部分正常（功能键大部分失效）               |
+| 键盘       | 部分正常（功能快捷键大部分失效）               |
 | 屏幕背光   | 正常                                       |
 | 电池       | 正常                                       |
 | 摄像头     | 正常                                       |
 | 麦克风     | 正常                                       |
 | 隔空投送   | 正常                                       |
 | 电磁笔     | 正常                                       |
-| 随航、接力 | 异常                                       |
+| 随航、接力 | 部分正常（随航不可用）                                       |
 | 触摸屏     | 失效                                       |
-| 睡眠       | 异常                                       |
+| 睡眠       | 正常                                       |
 
-1. 罗技k380正常连接，Airpods Pro正常连接，MX Key连接失败，M590连接失败。后两者支持Unifying连接，使用后连接正常。Airpods Pro播放音频时频繁卡顿，属于系统本身问题，打开终端分别执行4条命令后问题有大幅改善：
-
-   `sudo defaults write bluetoothaudiod "Enable AAC codec" -bool true`
+1. 罗技k380正常连接，Airpods Pro正常连接，MX Key连接失败，M590连接失败。后两者支持Unifying连接，使用后连接正常。Airpods Pro播放音频时频繁卡顿，似乎是与Wi-Fi冲突问题，关闭Wi-Fi有大幅改善。此外可以尝试打开终端分别执行3条命令：
 
    `defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 35`
 
