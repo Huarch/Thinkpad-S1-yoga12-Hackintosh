@@ -1,5 +1,10 @@
 # Thinkpad S1 yoga 12 Hackintosh
 
+## Update
+修复接力功能。EFI仍使用itlwm配置Wi-Fi。若要使用接力，需使用Hackintool安装airportitlwm，放入Library/Extensions文件夹，并重建缓存，同时需删除EFI中itlwm文件，即可使用系统Wi-Fi功能。
+
+修复睡眠功能。需使用Hackintool电源页，使用“扳手”按钮修复标记红色条目，即可正常睡眠。
+
 ## 设备信息
 
 | 类型      | 型号                                |
