@@ -14,8 +14,8 @@
 | Wi-Fi     | Intel(R) Dual Band Wireless AC 7265 |
 | Blueteeth | 原装Intel蓝牙（型号不重要）         |
 | 声卡      | Conexant CX20751                    |
-| ROM       | 8G                                  |
-| RAN       | 256G                                |
+| RAM       | 8G                                  |
+| SSD       | 256G                                |
 
 ## Hackintosh说明
 
